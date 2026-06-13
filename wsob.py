@@ -37,4 +37,4 @@ with open(table_path, mode = 'w', newline = '') as file:
     writer = csv.writer(file)
     writer.writerows(data)
 
-print("Finished!")
+k = input("Finished! Press Enter to close this window.")
